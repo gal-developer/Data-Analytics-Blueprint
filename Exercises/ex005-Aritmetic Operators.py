@@ -8,6 +8,5 @@ div = int(num1) / int(num2)
 pot = int(num1) ** int(num2)
 divint = int(num1) // int(num2)
 rest = int(num1) % int(num2)
-print ('Soma: {}, Subtração {}, Multiplicação {}, Divisão {},'
-       'Potenciação: {}, Divisão Inteira: {}, Resto {}'
-       .format(soma, subt, mult, div, pot, divint, rest))
+print (f'Soma: {soma}, Subtração {subt}, Multiplicação {mult}, Divisão {div:.2f},'
+       f'Potenciação: {pot}, Divisão Inteira: {divint}, Resto {rest}')
