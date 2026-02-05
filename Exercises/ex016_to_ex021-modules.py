@@ -40,7 +40,6 @@ print(f'Para o ângulo de {ang:.1f}°:')
 print(f'-> O Seno é: {sine:.2f}')
 print(f'-> O Cosseno é: {cosine:.2f}')
 print(f'-> A Tangente é: {tang:.2f}')
-
 # --- RESULTADO ---
 # Se você digitar 30 (graus), o Python faria o cálculo de 30 radianos.
 # A função radians(ang) faz a conta: (ângulo * PI) / 180.
